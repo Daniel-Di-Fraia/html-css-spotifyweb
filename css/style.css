@@ -134,7 +134,7 @@ a i:hover {
     background-color: white;
 }
 
-
+/* mobile version */
 @media screen and (max-width: 552px) {
 
     .col-sx {
@@ -249,8 +249,9 @@ h2 {
     margin-bottom: 40px;
 }
 
-.margin-left {
-    margin: 0 20px;
+.container-section {
+    width: 97%;
+    margin: 0 auto;
 }
 
 aside {
@@ -275,10 +276,7 @@ aside {
 .row-main img {
     max-width: 100%;
     cursor: pointer;
-    position: relative;
-    display: block;
 }
-
 
 .col-main h4 {
     font-size: 19px;
@@ -296,6 +294,32 @@ aside {
 
 #lana , #einaudi {
     border-radius: 50%;
+}
+
+/* tablet version */
+@media screen and (max-width: 878px) {
+    
+    .row-main {
+    flex-wrap: wrap;
+    }
+
+    .row-main {
+        width: 100%;
+    }
+
+    .col-main {
+    width: calc(100%/5);
+}
+
+}
+
+/* large mobile version */
+@media screen and (max-width: 639px) {
+    
+    .col-main {
+    width: calc(100%/3);
+}
+
 }
 
 
