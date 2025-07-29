@@ -15,7 +15,7 @@ body {
 /* contenuto principale spotify */
 .container {
     display: flex;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 100px);
 }
 
 .col-sx {
@@ -126,6 +126,15 @@ hr {
     margin-left: 10px;
 }
 
+.col-sx ul li a:hover {
+    color: white;
+}
+
+a i:hover {
+    background-color: white;
+}
+
+
 @media screen and (max-width: 552px) {
 
     .col-sx {
@@ -176,5 +185,5 @@ hr {
 /* controllo riproduzione */
 .container-footer {
     background-color: #282828;
-    height: 120px;
+    height: 100px;
 }
