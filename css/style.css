@@ -187,3 +187,17 @@ a i:hover {
     background-color: #282828;
     height: 100px;
 }
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-footer {
+    /* DEBUG */
+    background-color: aqua;
+    height: 70px;
+    width: 25%;
+    margin: 15px;
+    
+}
