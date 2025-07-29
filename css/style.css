@@ -235,9 +235,47 @@ a i:hover {
     color: white;
 }
 
+/* sezione musica */
+h2 {
+    font-size: 30px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
 
+#recently {
+    font-size: 30px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
 
+.margin-left {
+    margin: 0 20px;
+}
 
+aside {
+    color: #949494;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.row-main {
+    display: flex;
+    gap: 20px;
+}
+
+.col-main {
+    /* DEBUG */
+    background-color: burlywood;
+    height: 200px;
+    border: 1px solid red;
+    width: 17%;
+}
+
+.radius {
+    border-radius: 50%;
+}
 
 
 
