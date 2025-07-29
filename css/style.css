@@ -238,7 +238,7 @@ a i:hover {
 h2 {
     font-size: 30px;
     color: white;
-    margin-top: 60px;
+    margin-top: 25px;
     margin-bottom: 10px;
 }
 
@@ -266,16 +266,37 @@ aside {
 
 .col-main {
     /* DEBUG */
-    background-color: burlywood;
+    /* background-color: burlywood;
     height: 200px;
-    border: 1px solid red;
-    width: 17%;
+    border: 1px solid red; */
+    width: calc(100%/6);
 }
 
-.radius {
+.row-main img {
+    max-width: 100%;
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+
+
+.col-main h4 {
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.col-main aside {
+    color: #949494;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#lana , #einaudi {
     border-radius: 50%;
 }
-
 
 
 
