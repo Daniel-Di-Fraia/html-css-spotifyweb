@@ -166,7 +166,39 @@ a i:hover {
     }
 }
 
+/* right part */
+.banner {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 900;
+    position: relative;
+}
 
+.banner a {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    margin-top: 22px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 25px 25px;
+    text-align: center;
+    line-height: 40px;
+    height: 43px;
+    width: 15%;
+}
+
+.banner a:hover {
+    font-size: 14px;
+    height: 45px;
+    width: 16%;
+    margin-right: 15px;
+}
 
 
 
