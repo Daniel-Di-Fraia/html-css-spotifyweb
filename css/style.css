@@ -79,7 +79,7 @@ h5 {
     font-weight: 700;
 }
 
- a i {
+ .button {
     background-color: #949494;
     height: 40px;
     width: 20%;
@@ -193,11 +193,99 @@ a i:hover {
     justify-content: space-between;
 }
 
+.row-i {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    width: 15%;
+}
+
 .col-footer {
     /* DEBUG */
-    background-color: aqua;
-    height: 70px;
-    width: 25%;
+    /* background-color: aqua;
+    height: 70px; */
     margin: 15px;
-    
+    /* display: flex; */
 }
+
+#little-song {
+    height: 45px;
+    margin-top: 10px;
+}
+
+#title-song {
+    color: white;
+    font-weight: 600;
+}
+
+#name {
+    color: #949494;
+    font-size: 13px;
+    display: block;
+    width: 75px;
+}
+
+.margin-top {
+    margin-top: 12px;
+}
+
+.row-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.row a i {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.row-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    flex-grow: 1;
+}
+
+.row-play i {
+    font-size: 20px;  
+}
+
+#circle {
+    font-size: 30px;
+}
+
+.border {
+    border: 1px solid grey;
+    width: 80%;
+}
+
+.width-bar {
+    width: 23%;
+}
+
+.row-play span {
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.row-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+.row-info i {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+
+
+
+
