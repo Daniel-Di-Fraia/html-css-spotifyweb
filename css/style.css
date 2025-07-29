@@ -200,7 +200,40 @@ a i:hover {
     margin-right: 15px;
 }
 
+.flex-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style-type: none;
+    margin-top: 25px;
+}
 
+.flex-list li a {
+    text-decoration: none;
+    color: #949494;
+    font-weight: 700;
+}
+
+#bot {
+    position: relative;
+}
+
+#bot::after {
+    content: "";
+    position: absolute;
+    left: 33%;
+    bottom: -5px;
+    width: 38%;
+    height: 2px;
+    background-color: greenyellow;
+    margin-top: 10px;
+    
+}
+
+.flex-list li a:hover {
+    color: white;
+}
 
 
 
