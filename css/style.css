@@ -297,6 +297,35 @@ aside {
     border-radius: 50%;
 }
 
+
+.card-image{
+    position: relative;
+}
+
+
+ .overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    font-size: 60px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.col-main:hover .overlay {
+    display: flex;
+}
+
+.radius-over {
+    border-radius: 50%;
+}
+
+
 /* tablet version */
 @media screen and (max-width: 878px) {
     
@@ -471,6 +500,12 @@ aside {
     margin-left: 39px;
 }
 
+@media screen and (max-width: 639px) {
+    
+    .i-pos {
+        margin-top: 0;
+    }
 
+}
 
 
