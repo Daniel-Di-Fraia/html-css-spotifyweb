@@ -303,12 +303,8 @@ aside {
     flex-wrap: wrap;
     }
 
-    .row-main {
-        width: 100%;
-    }
-
     .col-main {
-    width: calc(100%/5);
+    width: calc(100%/4 - 15px);
 }
 
 }
@@ -317,10 +313,23 @@ aside {
 @media screen and (max-width: 639px) {
     
     .col-main {
-    width: calc(100%/3);
+    width: calc(100%/2 - 12px);
+    }
 }
 
+@media screen and (max-width: 552px) {
+    
+    .banner a {
+     margin-right: 70px;
+    
 }
+}
+
+
+
+
+
+
 
 
 
