@@ -80,10 +80,10 @@ h5 {
     font-weight: 700;
 }
 
-/* #list-play {
-    height: 100%;
+#list-play {
+    height: 60%;
     overflow-y: auto;
-} */
+}
 
  .button {
     background-color: #949494;
