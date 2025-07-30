@@ -184,49 +184,53 @@
 
     <!-- controllo riproduzione -->
     <footer>
-        <div class="container-footer">
+        <section class="container-footer">
+        <div class="cont">
+        
             <div class="row">
                 <div class="col-footer">
-                    <div class="row-items">
-                        <img src="img/sinister.jpeg" alt="listening-song" id="little-song">
-                        <div class="margin-top">
-                        <span id="title-song">Sinister</span>
-                        <span id="name">Brano nome</span>
-                        </div>
-                        <div class="row-i">
-                            <a href="#">
-                            <i class="fa-regular fa-heart" style="color: #636363;"></i>
-                            </a>
-                            <a href="#">
-                            <i class="fa-regular fa-folder" style="color: #636363;"></i>
-                            </a>
-                        </div>
+                    <img src="img/sinister.jpeg" alt="listening-song" id="little-song">
+                    <span id="title-song">
+                        Sinister<span id="name">Brano nome</span>
+                    </span>
+                    <div class="i-pos">
+                    <a href="#">
+                    <i class="fa-regular fa-heart" style="color: #636363;"></i>
+                    </a>
+                    <a href="#">
+                    <i class="fa-regular fa-folder" style="color: #636363;"></i>
+                    </a>
                     </div>
                 </div>
-                <div class="col-footer">
-                    <div class="row-play">
+                <div class="col-footer column">
+                    <div class="play-row">
                         <i class="fa-solid fa-shuffle" style="color: #ffffff;"></i>
                         <i class="fa-solid fa-backward-step" style="color: #ffffff;"></i>
-                        <i class="fa-regular fa-circle-play" style="color: #ffffff;"></i>
+                        <i id="circle" class="fa-regular fa-circle-play" style="color: #ffffff;"></i>
                         <i class="fa-solid fa-forward-step" style="color: #ffffff;"></i>
                         <i class="fa-solid fa-rotate-right" style="color: #ffffff;"></i>
                     </div>
-                    <div class="row-play margin-top">
+                    <div class="play-row">
                         <span>0.25</span>
-                        <div class="border"></div>
+                        <div class="music-bar">
+                            <div class="ball"></div>
+                            <div class="time-bar"></div>
+                        </div>
                         <span>4.55</span>
                     </div>
                 </div>
                 <div class="col-footer">
-                    <div class="row-info">
-                        <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
-                        <i class="fa-solid fa-desktop" style="color: #ffffff;"></i>
-                        <i class="fa-solid fa-volume-high" style="color: #ffffff;"></i>
-                        <div class="border"></div>
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-desktop" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-volume-high" style="color: #ffffff;"></i>
+                    <div class="music-bar width-bar">
+                        <div class=" ball ball-volume"></div>
+                        <div class="time-bar little-bar"></div>
                     </div>
                 </div>
             </div>
         </div>
+        </section>
     </footer>
 
 
