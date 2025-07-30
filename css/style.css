@@ -80,6 +80,11 @@ h5 {
     font-weight: 700;
 }
 
+/* #list-play {
+    height: 100%;
+    overflow-y: auto;
+} */
+
  .button {
     background-color: #949494;
     height: 40px;
@@ -500,12 +505,32 @@ aside {
     margin-left: 39px;
 }
 
-@media screen and (max-width: 639px) {
+/* tablet version */
+@media screen and (max-width: 724px) {
+
+    .col-footer {
+    gap: 4px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.i-pos {
+        margin-top: 17px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-left: 14px;
+    }
+    
+}
+
+/* mobile version */
+@media screen and (max-width: 552px) {
     
     .i-pos {
-        margin-top: 0;
+        margin-top: -8px;
+        margin-left: 0px;
     }
-
 }
 
 
