@@ -68,8 +68,13 @@ li img {
     vertical-align: middle;
 }
 
-#home {
-    border-left: 2px solid greenyellow;
+.left-border {
+    border-left: 3px solid greenyellow;
+    height: 33px;
+    display: inline-block;
+    margin-right: 6px;
+    margin-left: -13px;
+    vertical-align: -13px;
 }
 
 h5 {
