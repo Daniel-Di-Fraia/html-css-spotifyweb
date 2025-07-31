@@ -186,6 +186,11 @@ li a i:hover {
         margin-bottom: 20px;
         margin-left: 2px;
     }
+
+    #plus-play {
+    display: none;
+    }
+
 }
 
 /* right part */
