@@ -298,6 +298,7 @@ aside {
     height: 200px;
     border: 1px solid red; */
     width: calc(100%/6);
+    cursor: pointer;
 }
 
 .row-main img {
