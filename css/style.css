@@ -147,6 +147,15 @@ li a i:hover {
     background-color: white;
 }
 
+#plus-play:hover {
+    color: white;
+}
+
+#plus-play:hover i {
+    background-color: white;
+}
+
+
 /* mobile version */
 @media screen and (max-width: 552px) {
 
