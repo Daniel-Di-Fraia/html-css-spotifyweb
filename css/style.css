@@ -24,6 +24,7 @@ body {
     height: 100%;
     flex-shrink: 0;
     overflow-y: auto;
+    overflow-y: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -80,8 +81,14 @@ h5 {
     font-weight: 700;
 }
 
+#plus-play {
+    text-decoration: none;
+    color:#949494;
+    font-weight: 600;
+}
+
 #list-play {
-    height: 60%;
+    height: 35vh;
     overflow-y: auto;
 }
 
